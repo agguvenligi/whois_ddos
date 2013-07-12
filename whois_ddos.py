@@ -260,11 +260,11 @@ if __name__ == "__main__":
     	if (options.b_quicklookup is True):
         	flags = flags|NICClient.WHOIS_QUICK
 	
-	    domain_name = args[1]
-	    thread_count = args[2]
+	domain_name = args[1]
+	thread_count = args[2]
 
-	    while True:
-		  signal.signal(signal.SIGINT, signal_handler)
+	while True:
+	  	  signal.signal(signal.SIGINT, signal_handler)
 
 		  pool = ThreadPool(int(thread_count))
 
