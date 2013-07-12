@@ -10,8 +10,8 @@ try:
   import optparse
   from Queue import Queue
   from threading import Thread
-	import time
-	import signal
+  import time
+  import signal
 except ImportError,e:
   import sys
   sys.stdout.write("%s" %e)
