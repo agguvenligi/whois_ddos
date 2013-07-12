@@ -264,7 +264,7 @@ if __name__ == "__main__":
 	    thread_count = args[2]
 
 	    while True:
-		      signal.signal(signal.SIGINT, signal_handler)
+		  signal.signal(signal.SIGINT, signal_handler)
 
 		  pool = ThreadPool(int(thread_count))
 
