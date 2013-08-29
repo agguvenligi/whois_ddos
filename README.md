@@ -2,9 +2,11 @@
 Whois DDOS Tool
 ----------------
 
+Yazılım 3 adet parametre almaktadır: 1. parametre sorgulamanın gerçekleştirileceği whois sunucusunu, 2. parametre sorgulanacak domain adını ve son parametre kaç adet thread açılacağının belirtmektedir.
+
 Betik asagidaki sekilde calistirilmaktadir.
 
-#  ./whois_ddos.py -h whois.nicproxy.com agguvenligi.net 20
+whois_ddos.py -h whois.nicproxy.com agguvenligi.net 20
 
 0 : thread is started ...
 
