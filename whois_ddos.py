@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
-# By Galkan , twitter: @cigalkan
+# By Galkan 
 
 
 try:
@@ -245,10 +244,6 @@ class ThreadPool():
 def signal_handler(signal, frame):
         print 'Ctrl+C ...'
         sys.exit(0)
-
-###
-## twitter: @cigalkan, Gokhan ALKAN
-###
 
 
 if __name__ == "__main__":
